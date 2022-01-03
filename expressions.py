@@ -1,17 +1,21 @@
-print('py4e exercises 3.1 and 3.3')
+print('py4e exercise 3.2')
 
-# Exercise 3.1
-stringHours = input('Enter your worked hours: ')
-stringRate = input('Enter your hourly rate: ')
-floatHours = float(stringHours)
-floatRate = float(stringRate)
+# Exercise 3.3
+stringHours = input('Enter your worked hours:')
+stringRate = input('Enter your hourly rate:')
+try:
+  floatHours = float(stringHours)
+  floatRate = float(stringRate)
+except:
+  print('Error, please enter numeric input')
+  quit()
+
 if floatHours > 40 :
   otHours = floatHours - 40
-  print('Overtime:', otHours)
   regPay = floatRate * 40
   otPay = otHours * (floatRate * 1.5)
   pay = regPay + otPay
 else:
-  print('Regular:', floatHours)
   pay = floatRate * floatHours
-print('Pay:', pay)
+
+print(pay)
