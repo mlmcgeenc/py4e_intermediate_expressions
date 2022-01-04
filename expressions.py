@@ -1,6 +1,6 @@
-print('py4e exercise 3.2')
+print('py4e exercise 4.6')
 
-# Exercise 3.2
+# Exercise 4.6
 stringHours = input('Enter your worked hours:')
 stringRate = input('Enter your hourly rate:')
 try:
