@@ -17,4 +17,4 @@ floatHours = float(stringHours)
 floatRate = float(stringRate)
 pay = computePay(floatHours, floatRate)
 
-print(pay)
+print("Pay",p)
