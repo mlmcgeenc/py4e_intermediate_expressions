@@ -1,7 +1,7 @@
 print('py4e exercise 4.6')
 
 # Exercise 4.6
-def computePay(hours, rate):
+def computepay(hours, rate):
   if hours > 40 :
     otHours = hours - 40
     regPay = rate * 40
@@ -15,6 +15,6 @@ stringHours = input('Enter your worked hours:')
 stringRate = input('Enter your hourly rate:')
 floatHours = float(stringHours)
 floatRate = float(stringRate)
-pay = computePay(floatHours, floatRate)
+pay = computepay(floatHours, floatRate)
 
-print("Pay",p)
+print("Pay",pay)
